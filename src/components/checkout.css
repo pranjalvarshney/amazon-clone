@@ -1,0 +1,29 @@
+.checkout {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
+  background: #ffffff;
+}
+.checkout-left {
+  width: 100%;
+}
+
+.checkout-left > .checkout-ad {
+  width: 100%;
+}
+
+.shopping-cart-title {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
+}
+.checkout-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cart-item-column {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,95 @@
+.signin {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.signin-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo-signin {
+  width: 180px;
+  object-fit: contain;
+}
+.signin-form-box {
+  margin-top: 20px;
+  border: 1px solid rgb(221, 220, 220);
+  border-radius: 3px;
+  padding: 20px;
+  width: 360px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.form-group > .label-text {
+  font-size: 14px;
+  font-weight: 600;
+}
+.form-group > .form-input {
+  font-size: 14px;
+  margin: 2px 0;
+  padding: 6px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid grey;
+}
+.signin-form-box > p {
+  font-size: 12px;
+}
+.signin-form-box > h2 {
+  font-size: 26px;
+  font-weight: 600;
+}
+.form-btn {
+  margin-top: 15px;
+  background: #f0c14b;
+  width: 100%;
+  border: 1px solid grey;
+  padding: 6px 0;
+  outline: none;
+  color: #131921;
+}
+.new-to-amazon-text {
+  font-size: 14px;
+  color: grey;
+}
+.new-to-amazon-div {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.plainline-grey {
+  background: lightgrey;
+  margin: 0 10px;
+  height: 1px;
+  width: 100px;
+}
+.btn-create-account {
+  width: 100%;
+  padding: 8px 0;
+  background: rgb(238, 238, 238);
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+.wrapper-options {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrapper-options > p {
+  font-size: 12px;
+  padding: 0 20px;
+  color: rgb(17, 17, 117);
+}
